@@ -1,0 +1,118 @@
+\documentclass[a4paper,8pt]{article}
+
+\usepackage{parskip}
+\usepackage{fontspec}
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.9, top=.4in, bottom=.4in]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage[normalem]{ulem}
+
+\setmainfont{Arial}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{1pt}{2pt}{2pt}
+
+\begin{document}
+\pagestyle{empty}
+
+%==================== HEADER ====================
+\begin{center}
+\begin{tabularx}{\linewidth}{@{} >{\centering\arraybackslash}X @{}}
+  \color[HTML]{1C033C} \Huge{Gaurav Kr Barnwal} \\[6pt]
+  \textcolor[HTML]{371e77}{
+  \underline{\href{tel:8690625718}{\faMobile\ 8690625718}} $|$
+  \underline{\href{mailto:gaurav220483@gmail.com}{\faEnvelope\ gaurav220483@gmail.com}} $|$
+  \underline{\href{https://github.com/gauravhere24}{\faGithub\ github.com/gauravhere24}} $|$
+  \underline{\href{https://www.linkedin.com/in/gauravbin/}{\faLinkedin\ linkedin.com/in/gauravbin/}}
+  }
+\end{tabularx}
+\end{center}
+
+%==================== PROFESSIONAL SUMMARY ====================
+\textit{Network Engineer with 1 year of hands-on experience in routing, switching, and troubleshooting. CCNA certified, curious by nature, and focused on building stable, well-designed networks.}
+
+%==================== EDUCATION ====================
+\section{Education}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\color[HTML]{1C033C}\textbf{KIET Group of Institutions (KIET)} & \color[HTML]{371e77} Graduated: July 2024 \\
+\color[HTML]{371e77} B.Tech in Computer Science and Engineering &
+\color[HTML]{4B28A4}\textit{GPA: 8.03/10} \\
+\multicolumn{2}{@{}X@{}}{Relevant Courses: Programming Languages (Java, C, Python), Algorithms and Data Structures, OOP, DBMS}
+\end{tabularx}
+
+%==================== EXPERIENCE ====================
+\section{Experience}
+
+\textbf{General Data Tech (GDT)} \hfill 2024 -- Present \\
+\textit{Network Engineer (L1 / L2)} \\[-6pt]
+
+\begin{itemize}[nosep, leftmargin=2em, itemsep=2pt]
+\item Provided real-time operational support for enterprise customers by troubleshooting routers, switches, and firewalls in live production environments
+\item Performed L2/L3 diagnostics using CLI across Cisco and multi-vendor networks to restore services within SLA timelines
+\item Worked across security and networking platforms including Fortinet (Security GUI), Versa, Citrix, and Cisco; monitored network health using ScienceLogic and managed incidents through ServiceNow in SLA-driven environments
+\item Successfully addressed 20–25 critical and 100+ high-priority network issues across enterprise environments, maintaining optimal network performance and security.
+\item Handled L2 escalations involving printer connectivity and VMware-related network dependencies
+\end{itemize}
+
+\textbf{Key Customers:} USCC, Hancock Whitney Bank, CCY Memorial, GRM, AT\&T WPS (Fortinet Firewall)
+
+\vspace{6pt}
+
+\textbf{CISCO} \hfill Jun 2022 \\
+\textit{Bootcamp on Cyber Security and Essentials}
+
+\begin{itemize}[nosep, leftmargin=2em, itemsep=2pt]
+\item Built networking scenarios and simulations using Cisco Packet Tracer during structured training
+\item Gained foundational exposure to cyber ethics and security principles
+\end{itemize}
+
+\textbf{CUVETTE} \hfill Feb 2023 -- Mar 2023 \\
+\textit{Web Designing}
+
+\begin{itemize}[nosep, leftmargin=2em, itemsep=2pt]
+\item Designed and developed a fully responsive WordPress website aligned with client requirements
+\item Customized themes and plugins to match branding and improve usability
+\item Implemented SEO best practices to enhance visibility and performance
+\end{itemize}
+
+%==================== PROJECTS ====================
+\section{Projects}
+
+\textbf{Memory Retention Tool} \hfill Sep 2022 \\
+\textit{JavaScript, HTML, CSS}
+
+\begin{itemize}[nosep, leftmargin=2em, itemsep=2pt]
+\item Developed an interactive memory enhancement game using web technologies
+\item Designed intuitive user interfaces to improve engagement and usability
+\item Received positive feedback for effectiveness in improving memory retention
+\end{itemize}
+
+\textbf{ToDo Application UI} \hfill Jun 2023
+
+\begin{itemize}[nosep, leftmargin=2em, itemsep=2pt]
+\item Designed mobile-first UI screens for a task management application
+\end{itemize}
+
+%==================== CERTIFICATIONS ====================
+\section{Certifications}
+\textbf{CCNA --- Cisco Certified Network Associate} \\
+ITIL Foundation \\
+Cisco Meraki Certification (Ongoing) \\
+Ciena Telecom
+
+%==================== TECHNICAL SKILLS ====================
+\section{Technical Skills}
+
+\textbf{Networking \& Security:} TCP/IP, VLANs, Routing \& Switching, Fortinet Firewalls, Versa, Citrix, Cisco, VMware \\[3pt]
+\textbf{Monitoring \& Tools:} ScienceLogic, ServiceNow, CLI (Cisco IOS), Git, GitHub \\[3pt]
+\textbf{Frameworks:} ReactJS, NodeJS \\[3pt]
+\textbf{Languages \& Web:} Java, C, Python, HTML, CSS, JavaScript, SQL, Bootstrap \\[3pt]
+
+\end{document}
